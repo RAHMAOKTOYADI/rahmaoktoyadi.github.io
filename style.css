@@ -8,29 +8,6 @@
     color: #fff !important;
 }
 
-/* Gaya untuk link navigasi saat hover */
-.nav-link:hover {
-    color: #ddd !important;
-}
-
-/* Gaya untuk judul bagian */
-h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
-
-/* Gaya untuk kartu layanan dan proyek */
-.card {
-    border: none;
-    transition: transform 0.3s;
-}
-
-.card:hover {
-    transform: translateY(-10px);
-}
-
-/* Gaya untuk gambar proyek */
-.card-img-top {
-    height: 200px;
-    object-fit: cover;
-}
+/* G
+::contentReference[oaicite:0]{index=0}
+ 
