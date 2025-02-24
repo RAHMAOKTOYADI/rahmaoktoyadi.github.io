@@ -1,0 +1,140 @@
+/* Reset margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #fff;
+    padding-top: 60px; /* Menyesuaikan dengan navbar fixed */
+}
+
+/* Navigasi */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+nav .navbar-brand a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s, transform 0.2s ease;
+    border-radius: 5px;
+}
+
+/* Efek saat tombol diklik */
+nav ul li a:active {
+    transform: scale(0.95);
+}
+
+/* Efek hover & aktif */
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Konten */
+section {
+    padding: 60px 20px;
+    margin: 10px 0 1px 0;
+    background-color: #333;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Gaya untuk kontainer logo */
+.logo-container {
+    display: flex;
+    justify-content: center; /* Memposisikan secara horizontal di tengah */
+    align-items: center; /* Memposisikan secara vertikal di tengah */
+    height: 40vh; /* Mengatur tinggi kontainer sesuai tinggi viewport */
+}
+
+/* Gaya untuk gambar logo */
+.logo {
+    width: 200px; /* Atur lebar sesuai kebutuhan */
+    height: 200px; /* Atur tinggi sesuai kebutuhan */
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    object-fit: cover; /* Memastikan gambar menyesuaikan dalam lingkaran */
+}
+
+/* Gaya untuk kontainer konten */
+.content-container {
+    text-align: center; /* Menengahkan teks secara horizontal */
+}
+
+/* Gaya untuk garis horizontal */
+.center-line {
+    width: 100%; /* Atur lebar garis sesuai kebutuhan */
+    margin: 40px auto; /* Menengahkan garis dengan margin otomatis */
+    border: none; /* Menghilangkan border default */
+    border-top: 2px solid #fff; /* Menambahkan garis horizontal */
+}
